@@ -46,6 +46,9 @@ CONFIGURE_STRING="--prefix=/usr/local/php7 \
                   --enable-ftp \
                   --with-gettext \
                   --with-gd \
+		  --enable-gd-native-ttf \
+                  --with-freetype \
+                  --with-freetype-dir=/usr/include/freetype2/ \
                   --with-jpeg-dir \
                   --enable-mbstring \
                   --with-mhash \
@@ -68,6 +71,7 @@ CONFIGURE_STRING="--prefix=/usr/local/php7 \
                   --with-readline \
                   --with-curl \
                   --enable-fpm \
+                  --with-xmlrpc \
                   --with-fpm-user=www-data \
                   --with-fpm-group=www-data"
 
